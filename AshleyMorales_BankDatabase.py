@@ -10,8 +10,8 @@ import mysql.connector
 # Establish SQL connection
 mydb = mysql.connector.connect(
     host="127.0.0.1",
-    user="root",
-    password="Stitch626"
+    user="",
+    password=""
 )
 
 # Create Bank database
@@ -130,7 +130,7 @@ if mycursor.rowcount == 0:
         ('Giancarlo', 'Stanton', '456', '386 Hillcrest St New York, NY 10040', 'gstanton@gmail.com', '917-646-8000',
          'gstanton', 'gstanton01'),
 
-        ('Aaron', 'Judge', '789', '283 Academy Ave Yonkers, NY 10701', 'gstanton@gmail.com', '347-553-9000', 'ajudge',
+        ('Aaron', 'Judge', '789', '283 Academy Ave Yonkers, NY 10701', 'ajudge@gmail.com', '347-553-9000', 'ajudge',
          'ajudge01'),
 
         ('Melanie', 'Row', '654', '393 Greenview Lane, NY 11111', 'mrow@gmail.com', '458-239-4163', 'mrow', 'mrow01'),
